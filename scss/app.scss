@@ -71,6 +71,9 @@ a {
 		display:block;
 		clear:both;
 	}
+	figure {
+		margin:0;
+	}
 	
 }
 
@@ -79,7 +82,7 @@ a {
 	margin-left:0;
 	li {
 		list-style-type:none;
-		margin-bottom: rem-calc(20px);
+		margin-bottom: rem-calc(20px);  
 	}
 	.category-name {
 		a {
