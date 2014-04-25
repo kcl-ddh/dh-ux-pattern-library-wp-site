@@ -74,6 +74,22 @@ a {
 	
 }
 
+/* Category listing */
+.category-listing {
+	margin-left:0;
+	li {
+		list-style-type:none;
+		margin-bottom: rem-calc(20px);
+	}
+	.category-name {
+		a {
+			font-weight:700;
+		}
+	}
+}
+
+
+
 /* Related content */
 .related-content:before {
 	margin-top:rem-calc(20px);
@@ -145,6 +161,10 @@ article.widget {
 	li {
 		list-style-type:none;
 		font-size:rem-calc(14px);
+	}
+	/* category listing in sidebar */
+	ul.children {
+		margin-left:rem-calc(10px);
 	}
 }
 
